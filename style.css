@@ -1063,7 +1063,28 @@ p{ margin: 0 0 16px; color: var(--text-secondary); }
 @media (max-width: 560px){
   .field-row{ grid-template-columns: 1fr; }
 }
-
+/* ============================================================
+   FRASE DE IMPACTO
+   ============================================================ */
+.impacto{
+  background: var(--navy);
+  padding: 88px 0;
+}
+.impacto-text{
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: clamp(24px, 3.4vw, 38px);
+  line-height: 1.35;
+  color: var(--white);
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+.impacto-highlight{
+  display: block;
+  color: var(--teal);
+  margin-top: 10px;
+}
 /* ============================================================
    SCROLL REVEAL
    ============================================================ */
